@@ -14,8 +14,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/wiselike/revel-cmd/model"
-	"github.com/wiselike/revel-cmd/utils"
+	"github.com/bennovw/revel-cmd/model"
+	"github.com/bennovw/revel-cmd/utils"
 )
 
 const ErrNoSkeleton Error = "failed to find skeleton in filepath"

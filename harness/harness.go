@@ -34,9 +34,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/wiselike/revel-cmd/model"
-	"github.com/wiselike/revel-cmd/utils"
-	"github.com/wiselike/revel-cmd/watcher"
+	"github.com/bennovw/revel-cmd/model"
+	"github.com/bennovw/revel-cmd/utils"
+	"github.com/bennovw/revel-cmd/watcher"
 )
 
 var (

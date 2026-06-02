@@ -1,4 +1,4 @@
-module github.com/wiselike/revel-cmd
+module github.com/bennovw/revel-cmd
 
 go 1.22.0
 

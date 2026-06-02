@@ -21,9 +21,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	cmd "github.com/wiselike/revel-cmd"
-	"github.com/wiselike/revel-cmd/model"
-	"github.com/wiselike/revel-cmd/utils"
+	cmd "github.com/bennovw/revel-cmd"
+	"github.com/bennovw/revel-cmd/model"
+	"github.com/bennovw/revel-cmd/utils"
 )
 
 type (
@@ -105,7 +105,7 @@ func (v *VersionCommand) doRepoCheck(updateLibs bool) (versionInfo string, needs
 		case "revel":
 			title, repo, localVersion = "Revel Framework", "github.com/wiselike/revel", v.revelVersion
 		case "cmd":
-			title, repo, localVersion = "Revel Cmd", "github.com/wiselike/revel-cmd/revel", v.cmdVersion
+			title, repo, localVersion = "Revel Cmd", "github.com/bennovw/revel-cmd/revel", v.cmdVersion
 		case "modules":
 			title, repo, localVersion = "Revel Modules", "github.com/wiselike/revel-modules", v.modulesVersion
 		}

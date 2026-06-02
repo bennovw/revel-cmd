@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/wiselike/revel-cmd/model"
-	main "github.com/wiselike/revel-cmd/revel"
+	"github.com/bennovw/revel-cmd/model"
+	main "github.com/bennovw/revel-cmd/revel"
 )
 
 // test the commands.

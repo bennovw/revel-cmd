@@ -9,7 +9,7 @@ import (
 	"github.com/wiselike/revel/logger"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/wiselike/revel-cmd/model"
+	"github.com/bennovw/revel-cmd/model"
 )
 
 // helper builds a minimal SourceInfoProcessor together with

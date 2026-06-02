@@ -13,8 +13,8 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	"github.com/wiselike/revel-cmd/model"
-	"github.com/wiselike/revel-cmd/utils"
+	"github.com/bennovw/revel-cmd/model"
+	"github.com/bennovw/revel-cmd/utils"
 )
 
 // Listener is an interface for receivers of filesystem events.

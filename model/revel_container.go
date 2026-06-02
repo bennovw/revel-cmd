@@ -16,7 +16,7 @@ import (
 	config "github.com/wiselike/revel-config"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/wiselike/revel-cmd/utils"
+	"github.com/bennovw/revel-cmd/utils"
 )
 
 // Error is used for constant errors.

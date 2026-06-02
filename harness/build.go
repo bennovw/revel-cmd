@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wiselike/revel-cmd/model"
-	"github.com/wiselike/revel-cmd/parser"
-	"github.com/wiselike/revel-cmd/parser2"
-	"github.com/wiselike/revel-cmd/utils"
+	"github.com/bennovw/revel-cmd/model"
+	"github.com/bennovw/revel-cmd/parser"
+	"github.com/bennovw/revel-cmd/parser2"
+	"github.com/bennovw/revel-cmd/utils"
 )
 
 var importErrorPattern = regexp.MustCompile("cannot find package \"([^\"]+)\"")
